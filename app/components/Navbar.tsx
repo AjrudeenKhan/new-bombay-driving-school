@@ -14,7 +14,7 @@ const navLinks = [
   { name: 'Vehicles', href: '#vehicles' },
   { name: 'Training', href: '#training' },
   { name: 'Gallery', href: '#gallery' },
-  { name: 'Blogs', href: '#blogs' },
+  // { name: 'Blogs', href: '#blogs' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'FAQ', href: '#faq' },
   { name: 'Contact', href: '#contact' },
@@ -45,24 +45,24 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
+          <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Logo */}
-            <a href="#home" className="flex items-center gap-3">
-              <div className="relative w-12 h-12">
+            <a href="#home" className="flex items-center gap-3 shrink-0">
+  <div className="relative w-20 h-20 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
                 <Image
-                  src="/images/services/image.png"
-                  alt="Vijayvergiya Motor Driving School Logo"
+                  src="/images/services/new-bombay-logo.png"
+                  alt="New Bombay Motor Driving School Logo"
                   fill
-                  className="object-contain"
+                  className="object-contain "
                 />
               </div>
-              <div className="hidden sm:block">
+              <div className="">
                 <span
                   className={`text-lg font-bold ${
                     isScrolled ? 'text-slate-900' : 'text-white'
                   }`}
                 >
-                  Vijayvergiya
+                  New Bombay
                 </span>
                 <span
                   className={`text-xs block -mt-1 ${

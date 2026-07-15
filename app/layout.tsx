@@ -1,11 +1,11 @@
-import './globals.css';
+import "./globals.css";
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Vijayvergiya Motor Driving School | Best Driving School in Jaipur',
+  title: 'New Bombay Motor Driving School | Best Driving School in Jaipur',
   description:
     'Professional car driving classes with experienced instructors, flexible timings, practical training, and vehicle maintenance knowledge. Trusted driving school in Jaipur with 1000+ students trained.',
   keywords: [
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     'Car Training School Jaipur',
     'Driving Instructor Jaipur',
   ],
-  metadataBase: new URL('https://vijayvergiyadrivingschool.com'),
+  metadataBase: new URL('https://newbombaydrivingschool.com'),
   openGraph: {
-    title: 'Vijayvergiya Motor Driving School | Best Driving School in Jaipur',
+    title: 'New Bombay Motor Driving School | Best Driving School in Jaipur',
     description:
       'Professional car driving classes with experienced instructors, flexible timings, practical training, and vehicle maintenance knowledge.',
     type: 'website',

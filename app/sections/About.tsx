@@ -70,7 +70,7 @@ export default function About() {
               About Us
             </span>
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-              Vijayvergiya Motor{' '}
+              New Bombay Motor{' '}
               <span className="text-gradient">Driving School</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-8">

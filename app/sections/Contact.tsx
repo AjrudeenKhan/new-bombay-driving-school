@@ -36,7 +36,7 @@ Course: ${course}
 `;
 
   const whatsappUrl =
-    `https://wa.me/916377708372?text=${encodeURIComponent(message)}`;
+    `https://wa.me/919251504685?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, "_blank");
 };
@@ -84,7 +84,7 @@ Course: ${course}
                     <div>
                       <p className="font-medium text-slate-900">Address</p>
                       <p className="text-slate-600 text-sm">
-                        B-32, Gopalpura Bypass Rd, near Tilak Public School, Triveni Nagar, Jaipur, Rajasthan 302018
+                        15B, Gandhi Vihar Rd, Manyawas, Mansarovar, Jaipur, Rajasthan 302021
                       </p>
                     </div>
                   </div>
@@ -95,7 +95,7 @@ Course: ${course}
                     <div>
                       <p className="font-medium text-slate-900">Phone</p>
                       <a href="tel:09982299987" className="text-slate-600 text-sm hover:text-blue-600 transition-colors">
-                        099822 99987
+                        09251504685
                       </a>
                     </div>
                   </div>
@@ -113,21 +113,21 @@ Course: ${course}
 
               {/* Map */}
               <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.5!2d75.75!3d26.85!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUxJzAwLjAiTiA3NcKwNDUnMDAuMCJF!5e0!3m2!1sen!2sin!4v1"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Vijayvergiya Motor Driving School Location"
-                />
+               <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.5!2d75.75!3d26.85!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUxJzAwLjAiTiA3NcKwNDUnMDAuMCJF!5e0!3m2!1sen!2sin!4v1"
+  width="100%"
+  height="300"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="New Bombay Motor Driving School Location"
+/>
               </div>
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/919982299987"
+                href="https://wa.me/919251504685"
                 target="_blank"
                 rel="noopener noreferrer"
               >

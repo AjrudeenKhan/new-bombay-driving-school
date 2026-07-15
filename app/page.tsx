@@ -24,6 +24,8 @@ export default function Home() {
       <Hero />
       <About />
       <Stats />
+      <Vehicles/>
+      <Courses/>
       <Services />
       {/* <WhyChooseUs /> */}
       <TrainingProcess />
